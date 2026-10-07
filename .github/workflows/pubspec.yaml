@@ -1,0 +1,17 @@
+name: photo_backup_app
+description: A photo backup app.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  photo_manager: ^3.6.0
+  permission_handler: ^11.3.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true
